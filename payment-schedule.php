@@ -26,7 +26,7 @@ $subscriptionStartDate = strtotime($data['subscriptionStartDate']);
 */
 if ($scheduleInMonths < 0 
     || $scheduleInMonths > 36 
-    || strlen($subscriptionStartDate) != 10
+    || strlen(date('Y-m-d', $subscriptionStartDate)) != 10
     || false === $subscriptionStartDate
     || date('Y-m-d') < date('Y-m-d', $subscriptionStartDate)) {
 
