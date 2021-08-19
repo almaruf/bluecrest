@@ -16,6 +16,16 @@ This is a simple PHP script that you can copy into any directory inside your loc
 
 
 ## links
-I have build an online test script for anyone to check the script here: http://tools.almaruf.com/test.php?subscriptionStartDate=1998-01-07&scheduleInMonths=2
+There is an online installation for a quick check here: http://tools.almaruf.com/payment-schedule.php
+You can use CURL to make only GET requests in this endpoint. Example CURL commands
+* curl "http://tools.almaruf.com/payment-schedule.php?subscriptionStartDate=2021-01-07&scheduleInMonths=5"
+* curl "http://tools.almaruf.com/payment-schedule.php?subscriptionStartDate=1998-01-07&scheduleInMonths=2"
+* curl "http://tools.almaruf.com/payment-schedule.php?subscriptionStartDate=2020-01-30&scheduleInMonths=3"
+* curl "http://tools.almaruf.com/payment-schedule.php?subscriptionStartDate=2020-01-31&scheduleInMonths=1"
+* curl "http://tools.almaruf.com/payment-schedule.php?subscriptionStartDate=2021-01-10&scheduleInMonths=0"
+* curl "http://tools.almaruf.com/payment-schedule.php?subscriptionStartDate=2031-01-30&scheduleInMonths=2"
+* curl "http://tools.almaruf.com/payment-schedule.php?subscriptionStartDate=2020-01-30&scheduleInMonths=200"
+
+I have also built an online test script for anyone to check the script here: http://tools.almaruf.com/test.php
 
 
