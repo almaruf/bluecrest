@@ -6,7 +6,7 @@ A sample API script that provides a monthly payment schedule between the members
 ### Language Used: PHP7
 
 ### Installation Instructions:
-This is a simple PHP script that you can copy into any directory inside your localhost and run without any framework dependency. There is a test.php script for any non coder to visit and make requests to the API. Please change the base URL on the test script based on your script location.
+payment-schedule.php is a simple PHP script that you can copy into any directory inside your localhost and run without any framework dependency. There is a test.php script for any non coder to visit and make requests to the API. Please change the base URL on the test script based on your script location.
 
 ### Fact sheet
 * To reduce dependency on any framework and installation issues I have used basic PHP to build this script
